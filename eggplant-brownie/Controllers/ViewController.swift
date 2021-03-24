@@ -10,6 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    var tableViewController: MealTableViewController?
+    
     @IBOutlet var textFieldName: UITextField?
     @IBOutlet var textFieldHappy: UITextField?
     
@@ -21,6 +23,10 @@ class ViewController: UIViewController {
                 let meal = Meal(name: name, happy: happy)
 
                 print("Comi \(meal.name) e fiquei com felicidade \(meal.happy)")
+                
+                tableViewController?.add(meal)
+                
+                navigationController?.popViewController(animated: true)
             } else {
                 print("Erro ao tentar criar a refeição")
             }
