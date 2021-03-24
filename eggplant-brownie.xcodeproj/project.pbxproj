@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E565876E260AD8CB00738666 /* MealTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E565876D260AD8CB00738666 /* MealTableViewController.swift */; };
 		E5A38B5526084101003DB990 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A38B5426084101003DB990 /* Meal.swift */; };
 		E5A38B5726084176003DB990 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A38B5626084176003DB990 /* Item.swift */; };
 		E5C3C1D22604539B00465F9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C3C1D12604539B00465F9E /* AppDelegate.swift */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		E50319DE2606637B00BB7C93 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		E565876D260AD8CB00738666 /* MealTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTableViewController.swift; sourceTree = "<group>"; };
 		E5A38B5426084101003DB990 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 		E5A38B5626084176003DB990 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		E5C3C1CE2604539B00465F9E /* eggplant-brownie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "eggplant-brownie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				E5C3C1D52604539B00465F9E /* ViewController.swift */,
+				E565876D260AD8CB00738666 /* MealTableViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -174,6 +177,7 @@
 				E5A38B5526084101003DB990 /* Meal.swift in Sources */,
 				E5C3C1D62604539B00465F9E /* ViewController.swift in Sources */,
 				E5C3C1D22604539B00465F9E /* AppDelegate.swift in Sources */,
+				E565876E260AD8CB00738666 /* MealTableViewController.swift in Sources */,
 				E5C3C1D42604539B00465F9E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
