@@ -105,7 +105,7 @@
                     <navigationItem key="navigationItem" id="lIQ-fS-zam">
                         <barButtonItem key="rightBarButtonItem" title="Add" id="pZk-St-zNe">
                             <connections>
-                                <segue destination="BYZ-38-t0r" kind="show" id="aq7-yd-YyB"/>
+                                <segue destination="BYZ-38-t0r" kind="show" identifier="add" id="aq7-yd-YyB"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>

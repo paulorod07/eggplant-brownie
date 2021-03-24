@@ -8,9 +8,13 @@
 
 import UIKit
 
+protocol AddMealDelegate {
+    func add(_ meal: Meal)
+}
+
 class ViewController: UIViewController {
     
-    var tableViewController: MealTableViewController?
+    var delegate: AddMealDelegate?
     
     @IBOutlet var textFieldName: UITextField?
     @IBOutlet var textFieldHappy: UITextField?
@@ -24,7 +28,7 @@ class ViewController: UIViewController {
 
                 print("Comi \(meal.name) e fiquei com felicidade \(meal.happy)")
                 
-                tableViewController?.add(meal)
+                delegate?.add(meal)
                 
                 navigationController?.popViewController(animated: true)
             } else {
