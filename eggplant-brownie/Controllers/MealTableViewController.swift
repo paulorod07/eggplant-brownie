@@ -10,7 +10,9 @@ import UIKit
 
 class MealTableViewController: UITableViewController, AddMealDelegate {
 
-    var meals = [Meal(name: "Arroz", happy: 4), Meal(name: "Pizza", happy: 5), Meal(name: "Feijão", happy: 2)]
+    var meals = [Meal(name: "Arroz", happy: 4),
+                 Meal(name: "Pizza", happy: 5),
+                 Meal(name: "Feijão", happy: 2)]
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return meals.count

@@ -11,11 +11,12 @@ import UIKit
 class Meal: NSObject {
     let name: String
     let happy: Int
-    let items: Array<Item> = []
+    var items: Array<Item> = []
     
-    init(name: String, happy: Int) {
+    init(name: String, happy: Int, items: [Item] = []) {
         self.name = name
         self.happy = happy
+        self.items = items
     }
     
     func totalOfCalories() -> Double {

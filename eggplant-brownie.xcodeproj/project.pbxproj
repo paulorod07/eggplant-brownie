@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E50B82BE2610D466008C0D3B /* AddItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50B82BC2610D466008C0D3B /* AddItemsViewController.swift */; };
+		E50B82BF2610D466008C0D3B /* AddItemsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E50B82BD2610D466008C0D3B /* AddItemsViewController.xib */; };
 		E565876E260AD8CB00738666 /* MealTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E565876D260AD8CB00738666 /* MealTableViewController.swift */; };
 		E5A38B5526084101003DB990 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A38B5426084101003DB990 /* Meal.swift */; };
 		E5A38B5726084176003DB990 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A38B5626084176003DB990 /* Item.swift */; };
@@ -20,6 +22,8 @@
 
 /* Begin PBXFileReference section */
 		E50319DE2606637B00BB7C93 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		E50B82BC2610D466008C0D3B /* AddItemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemsViewController.swift; sourceTree = "<group>"; };
+		E50B82BD2610D466008C0D3B /* AddItemsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddItemsViewController.xib; sourceTree = "<group>"; };
 		E565876D260AD8CB00738666 /* MealTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTableViewController.swift; sourceTree = "<group>"; };
 		E5A38B5426084101003DB990 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 		E5A38B5626084176003DB990 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
@@ -58,6 +62,7 @@
 			children = (
 				E5C3C1D52604539B00465F9E /* ViewController.swift */,
 				E565876D260AD8CB00738666 /* MealTableViewController.swift */,
+				E50B82BC2610D466008C0D3B /* AddItemsViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -66,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				E5C3C1D72604539B00465F9E /* Main.storyboard */,
+				E50B82BD2610D466008C0D3B /* AddItemsViewController.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -161,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5C3C1DE2604539D00465F9E /* LaunchScreen.storyboard in Resources */,
+				E50B82BF2610D466008C0D3B /* AddItemsViewController.xib in Resources */,
 				E5C3C1DB2604539D00465F9E /* Assets.xcassets in Resources */,
 				E5C3C1D92604539B00465F9E /* Main.storyboard in Resources */,
 			);
@@ -175,6 +182,7 @@
 			files = (
 				E5A38B5726084176003DB990 /* Item.swift in Sources */,
 				E5A38B5526084101003DB990 /* Meal.swift in Sources */,
+				E50B82BE2610D466008C0D3B /* AddItemsViewController.swift in Sources */,
 				E5C3C1D62604539B00465F9E /* ViewController.swift in Sources */,
 				E5C3C1D22604539B00465F9E /* AppDelegate.swift in Sources */,
 				E565876E260AD8CB00738666 /* MealTableViewController.swift in Sources */,
@@ -323,6 +331,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KCY8Z5247K;
 				INFOPLIST_FILE = "eggplant-brownie/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -340,6 +349,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KCY8Z5247K;
 				INFOPLIST_FILE = "eggplant-brownie/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
