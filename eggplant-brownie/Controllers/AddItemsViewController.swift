@@ -57,8 +57,15 @@ class AddItemsViewController: UIViewController {
 //        guard let calories = caloriesTextField.text else { return }
         
         if let caloriesNumber = Double(calories) {
-            print("Entrou aqui")
             let item = Item(name: name, calories: caloriesNumber)
+            
+//            if let delegate = delegate {
+//                delegate.add(item)
+//            }
+            
+//            guard let delegate = delegate else { return }
+            
+//            delegate.add(item)
 
             delegate?.add(item)
             

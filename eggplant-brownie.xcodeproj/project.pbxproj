@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A4ACCDC2651C490003287CB /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4ACCDB2651C490003287CB /* Alert.swift */; };
 		E50B82BE2610D466008C0D3B /* AddItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50B82BC2610D466008C0D3B /* AddItemsViewController.swift */; };
 		E50B82BF2610D466008C0D3B /* AddItemsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E50B82BD2610D466008C0D3B /* AddItemsViewController.xib */; };
 		E565876E260AD8CB00738666 /* MealTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E565876D260AD8CB00738666 /* MealTableViewController.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A4ACCDB2651C490003287CB /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		E50319DE2606637B00BB7C93 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		E50B82BC2610D466008C0D3B /* AddItemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemsViewController.swift; sourceTree = "<group>"; };
 		E50B82BD2610D466008C0D3B /* AddItemsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddItemsViewController.xib; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 			children = (
 				E5A38B5426084101003DB990 /* Meal.swift */,
 				E5A38B5626084176003DB990 /* Item.swift */,
+				3A4ACCDB2651C490003287CB /* Alert.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 				E5C3C1D62604539B00465F9E /* ViewController.swift in Sources */,
 				E5C3C1D22604539B00465F9E /* AppDelegate.swift in Sources */,
 				E565876E260AD8CB00738666 /* MealTableViewController.swift in Sources */,
+				3A4ACCDC2651C490003287CB /* Alert.swift in Sources */,
 				E5C3C1D42604539B00465F9E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

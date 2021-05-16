@@ -16,7 +16,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     // MARK: - IBOutlet
     
-    @IBOutlet weak var tableViewItems: UITableView!
+    @IBOutlet weak var tableViewItems: UITableView?
     
     // MARK: - Attributes
     
@@ -53,7 +53,12 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     func add(_ item: Item) {
         print("add method view contoller")
         items.append(item)
-        tableViewItems.reloadData()
+        
+        if let tableView = tableViewItems {
+            tableView.reloadData()
+        } else {
+            Alert(controller: self).show()
+        }
     }
     
     // MARK: - UITableViewDataSource
