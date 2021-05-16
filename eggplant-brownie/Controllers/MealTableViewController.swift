@@ -25,6 +25,10 @@ class MealTableViewController: UITableViewController, AddMealDelegate {
         
         cell.textLabel?.text = meal.name
         
+        let longPress = UILongPressGestureRecognizer(target: self, action: #selector(showDetails(_:)))
+        
+        cell.addGestureRecognizer(longPress)
+        
         return cell
     }
     
@@ -33,6 +37,24 @@ class MealTableViewController: UITableViewController, AddMealDelegate {
         meals.append(meal)
         
         tableView.reloadData()
+    }
+    
+    @objc func showDetails(_ gesture: UILongPressGestureRecognizer) {
+        if gesture.state == .began {
+            let cell = gesture.view as! UITableViewCell
+            
+            guard let indexPath = tableView.indexPath(for: cell) else { return }
+            
+            let meal = meals[indexPath.row]
+            
+            let alert = UIAlertController(title: meal.name, message: "felicidade: \(meal.happy)", preferredStyle: .alert)
+            
+            let buttonCancel = UIAlertAction(title: "OK", style: .cancel, handler: nil)
+            
+            alert.addAction(buttonCancel)
+            
+            present(alert, animated: true, completion: nil)
+        }
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
